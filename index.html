@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./assest/css/style.css" />
   </head>
   <body>
-    <header class="header-section">
+    <header class="header-section" id="home">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-lg-3">
@@ -35,13 +35,13 @@
           <div class="col-lg-6">
             <nav class="hdr-nav">
               <ul class="d-flex justify-content-center">
-                <li><a class="nav-item active-item" href="">Home</a></li>
-                <li><a class="nav-item" href="">About</a></li>
-                <li><a class="nav-item" href="">Service</a></li>
-                <li><a class="nav-item" href="">Projects</a></li>
-                <li><a class="nav-item" href="">Pages</a></li>
-                <li><a class="nav-item" href="">Blog</a></li>
-                <li><a class="nav-item" href="">Contact</a></li>
+                <li><a class="nav-item active-item" href="#home">Home</a></li>
+                <li><a class="nav-item" href="#about">About</a></li>
+                <li><a class="nav-item" href="#service">Service</a></li>
+                <li><a class="nav-item" href="#project">Projects</a></li>
+                <li><a class="nav-item" href="#pricing">Pricing</a></li>
+                <li><a class="nav-item" href="#blog">Blog</a></li>
+                <li><a class="nav-item" href="#contact">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -117,7 +117,7 @@
     </section>
 
 
-    <section class="features-section ptb-100">
+    <section class="features-section ptb-100" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
@@ -172,7 +172,7 @@
     </section>
 
 
-    <section class="service-section ptb-100">
+    <section class="service-section ptb-100" id="service">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -232,7 +232,7 @@
     </section>
 
 
-    <section class="pricing-section ptb-100">
+    <section class="pricing-section ptb-100" id="pricing">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -324,7 +324,7 @@
 
 
 
-    <section class="project-section ptb-100">
+    <section class="project-section ptb-100" id="project">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -450,7 +450,7 @@
 
 
 
-    <section class="blog-section ptb-100">
+    <section class="blog-section ptb-100" id="blog">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -530,14 +530,61 @@
               <li><a class="footer-social-icon" href="#"><i class="fab fa-google-plus-g"></i></a></li>
             </ul>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 footer-contact-all">
             <h4 class="footer-title">Contact </h4>
+            <ul class="footer-contact">
+              <li class="footer-contact-item"><i class="fas fa-map-marked-alt"></i>7 Green Lake Street Crawfordsville, IN 47933</li>
+              <li class="footer-contact-item"><i class="fas fa-phone-volume"></i>+1 800 123 456 789</li>
+              <li class="footer-contact-item"><i class="fas fa-paper-plane"></i>Consultar@gmail.com</li>
+            </ul>
           </div>
-          <div class="col-lg-3"></div>
-          <div class="col-lg-3"></div>
+          <div class="col-lg-3 footer-contact-all">
+            <h4 class="footer-title">Services</h4>
+            <ul class="footer-contact">
+              <li><a class="footer-contact-item footer-contact-item-anchor" href="#">Advanced Analytics</a></li>
+              <li><a class="footer-contact-item footer-contact-item-anchor" href="#">Corporate Finance</a></li>
+              <li><a class="footer-contact-item footer-contact-item-anchor" href="#">Information Technology</a></li>
+              <li><a class="footer-contact-item footer-contact-item-anchor" href="#">Customer Strategy</a></li>
+              <li><a class="footer-contact-item footer-contact-item-anchor" href="#">Change Management</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h4 class="footer-title">Projects</h4>
+            <ul class="footer-project d-flex flex-wrap">
+              <li><a href="#">
+                <img class="footer-project-img" src="./assest/images/footer1.jpg" alt="">
+              </a></li>
+              <li><a href="#">
+                <img class="footer-project-img" src="./assest/images/footer2.jpg" alt="">
+              </a></li>
+              <li><a href="#">
+                <img class="footer-project-img" src="./assest/images/footer3.jpg" alt="">
+              </a></li>
+              <li><a href="#">
+                <img class="footer-project-img" src="./assest/images/footer4.jpg" alt="">
+              </a></li>
+              <li><a href="#">
+                <img class="footer-project-img" src="./assest/images/footer5.jpg" alt="">
+              </a></li>
+              <li><a href="#">
+                <img class="footer-project-img" src="./assest/images/footer6.jpg" alt="">
+              </a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+
+
+    <footer class="footer-copyright-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="copyright"> Copyright © 2021 Consultar by <a class="copyright-developer" href="#">Dip</a>. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

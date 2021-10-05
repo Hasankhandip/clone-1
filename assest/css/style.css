@@ -50,7 +50,12 @@ button {
 }
 
 .mr-20 {
-  margin-right: 20px;
+  margin-right: 20px !important;
+}
+
+.mlr-20 {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
 }
 
 .ptb-100 {
@@ -61,7 +66,13 @@ button {
 .main-btn {
   position: relative;
   padding: 13px 40px;
-  background: -webkit-gradient(linear, right top, left top, from(#3757f7), to(#071e93));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#3757f7),
+    to(#071e93)
+  );
   background: linear-gradient(to left, #3757f7, #071e93);
   color: #fff;
   font-size: 18px;
@@ -83,7 +94,13 @@ button {
   width: 100%;
   height: 100%;
   border-radius: 6px;
-  background: -webkit-gradient(linear, right top, left top, from(#071e93), to(#3757f7));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#071e93),
+    to(#3757f7)
+  );
   background: linear-gradient(to left, #071e93, #3757f7);
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -163,7 +180,6 @@ button {
 
 .hdr-btn {
   padding: 12px 25px !important;
-  font-size: 17px !important;
 }
 
 .search-btn {
@@ -220,7 +236,7 @@ button {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 
@@ -234,11 +250,11 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border-radius: 50%;
 }
 
@@ -323,7 +339,7 @@ button {
   background: #fff;
   border-radius: 20px;
   -webkit-box-shadow: 0px 0px 15px 0px rgba(43, 45, 118, 0.2);
-          box-shadow: 0px 0px 15px 0px rgba(43, 45, 118, 0.2);
+  box-shadow: 0px 0px 15px 0px rgba(43, 45, 118, 0.2);
 }
 
 .features-icon {
@@ -405,7 +421,7 @@ button {
 .pricing-item {
   padding: 50px;
   -webkit-box-shadow: 0px 2px 20px 0px rgba(62, 65, 159, 0.09);
-          box-shadow: 0px 2px 20px 0px rgba(62, 65, 159, 0.09);
+  box-shadow: 0px 2px 20px 0px rgba(62, 65, 159, 0.09);
 }
 
 .price-title {
@@ -538,7 +554,7 @@ button {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.4s;
@@ -570,11 +586,11 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 25px;
   background-color: #fff;
   border: 1px solid #b7b7b7;
@@ -688,8 +704,8 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .blog-content-btm-text {
@@ -732,11 +748,11 @@ button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #353e58;
   color: #fff;
   margin-right: 10px;
